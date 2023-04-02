@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: 0.3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn:hover{
+    background: transparent;
+    background-color: #fd4766;
+    color: #fd4766;
+}
+.content{
+    position: absolute;
+    top:35%;
+    left: 8%;
+}
+.content .title{
+    color: #0a0a0a;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg,#1c99fe 20.69,#7644ff 50.19,#fd4766 79.69);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #fd4766;
+}
+.content p{
+    width: 55%;
+    color: #202020;
+    margin-top: 25px;
+    margin-bottom:30px ;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-right: 8%;
+    color: #fd4766;
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 29px;
+}
